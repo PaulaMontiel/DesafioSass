@@ -1,0 +1,12 @@
+{
+  "name": "desafio4",
+  "version": "1.0.0",
+  "description": "Proyecto Sass",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sw": "sass -w assets/sass/style.scss:assets/css/style.css"
+  },
+  "author": "Paula Montiel",
+  "license": "ISC"
+}
