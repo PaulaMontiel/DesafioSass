@@ -21,6 +21,7 @@ $utilities-text: map-merge(
   (
     "black": to-rgb($black),
     "white": to-rgb($white),
+    "purple": to-rgb($purple),
     "body": to-rgb($body-color)
   )
 ) !default;
@@ -33,6 +34,7 @@ $utilities-bg: map-merge(
   (
     "black": to-rgb($black),
     "white": to-rgb($white),
+    "purple": to-rgb($purple),
     "body": to-rgb($body-bg)
   )
 ) !default;

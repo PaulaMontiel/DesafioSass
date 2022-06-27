@@ -1,1 +1,25 @@
-@import "bootstrap.scss";
+
+//font-base
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+$font-family-sans-serif: 'Yellowtail', cursive, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+.card {
+    @extend .bg-dark;
+    @extend .text-purple;
+
+}
+//variable color Sass Purple
+$color-sass: #cf649a;
+$azul-negruzco: #1e1d23;
+
+//Temas
+$theme-colors: (
+    "purple": $color-sass,
+    "dark": $azul-negruzco
+)!default;
+
+
+
+//Bootstrapp
+@import "bootstrap.scss"

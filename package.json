@@ -8,5 +8,9 @@
     "sw": "sass -w assets/sass/style.scss:assets/css/style.css"
   },
   "author": "Paula Montiel",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulaMontiel/DesafioSass"
+  }
 }
