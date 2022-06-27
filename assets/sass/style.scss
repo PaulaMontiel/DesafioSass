@@ -13,6 +13,12 @@ $font-family-sans-serif: 'Yellowtail', cursive, system-ui, -apple-system, "Segoe
     min-height: 100vh;
     @extend .d-flex;
 }
+.tarjeta{
+    @extend .position-absolute;
+    @extend .top-50;
+    @extend .start-50;
+    @extend .translate-middle;
+}
 .card {
     @extend .bg-dark;
     @extend .text-purple;
@@ -33,8 +39,6 @@ $theme-colors: (
     "dark": $dark,
     "light": $white
 )!default;
-
-
 
 //Bootstrapp
 @import "bootstrap.scss"
