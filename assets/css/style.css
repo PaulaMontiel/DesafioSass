@@ -6627,7 +6627,7 @@ textarea.form-control-lg {
   position: relative !important;
 }
 
-.position-absolute {
+.position-absolute, .tarjeta {
   position: absolute !important;
 }
 
@@ -6643,7 +6643,7 @@ textarea.form-control-lg {
   top: 0 !important;
 }
 
-.top-50 {
+.top-50, .tarjeta {
   top: 50% !important;
 }
 
@@ -6667,7 +6667,7 @@ textarea.form-control-lg {
   left: 0 !important;
 }
 
-.start-50 {
+.start-50, .tarjeta {
   left: 50% !important;
 }
 
@@ -6687,7 +6687,7 @@ textarea.form-control-lg {
   right: 100% !important;
 }
 
-.translate-middle {
+.translate-middle, .tarjeta {
   transform: translate(-50%, -50%) !important;
 }
 
