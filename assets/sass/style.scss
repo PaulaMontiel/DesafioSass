@@ -16,23 +16,22 @@ $font-family-sans-serif: 'Yellowtail', cursive, system-ui, -apple-system, "Segoe
 .card {
     @extend .bg-dark;
     @extend .text-purple;
-        .btn {
-            @extend .bg-purple;
-            @extend .text-light
+    .btn {
+        @extend .bg-purple;
+        @extend .text-light;
+    }
 }
-}
-
 
 //variable color Sass Purple
-$color-sass: #cf649a;
-$azul-negruzco: #1e1d23;
-$blanquito: #fff;
+$new-purple: #cf649a;
+$dark: #1e1d23;
+$white: #fff;
 
 //Temas
 $theme-colors: (
-    "purple": $color-sass,
-    "dark": $azul-negruzco,
-    "light": $blanquito
+    "purple": $new-purple,
+    "dark": $dark,
+    "light": $white
 )!default;
 
 
